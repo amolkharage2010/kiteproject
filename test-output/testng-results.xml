@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[--Open browser--]]>
+    </line>
+    <line>
+      <![CDATA[--Login To App--]]>
+    </line>
+    <line>
+      <![CDATA[running verify User ID TC]]>
+    </line>
+    <line>
+      <![CDATA[--Logout From App--]]>
+    </line>
+    <line>
+      <![CDATA[--Open browser--]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-18T12:46:39 IST" name="Default suite" finished-at="2022-08-18T12:47:55 IST" duration-ms="76028">
+    <groups>
+    </groups>
+    <test started-at="2022-08-18T12:46:39 IST" name="Default test" finished-at="2022-08-18T12:47:55 IST" duration-ms="76028">
+      <class name="Module1_Login_Test.KiteLoginTest2">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Module1_Login_Test.KiteLoginTest2@47e2e487]" started-at="2022-08-18T12:46:39 IST" name="openBrowser" finished-at="2022-08-18T12:47:25 IST" duration-ms="46202" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Open browser--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:Module1_Login_Test.KiteLoginTest2@47e2e487]" started-at="2022-08-18T12:47:25 IST" name="loginToApp" finished-at="2022-08-18T12:47:26 IST" duration-ms="1558" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Login To App--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="verifyUserID()[pri:0, instance:Module1_Login_Test.KiteLoginTest2@47e2e487]" started-at="2022-08-18T12:47:26 IST" name="verifyUserID" finished-at="2022-08-18T12:47:51 IST" duration-ms="25066" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[running verify User ID TC]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserID -->
+        <test-method is-config="true" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:Module1_Login_Test.KiteLoginTest2@47e2e487]" started-at="2022-08-18T12:47:51 IST" name="logoutFromApp" finished-at="2022-08-18T12:47:51 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserID status=SUCCESS method=KiteLoginTest2.verifyUserID()[pri:0, instance:Module1_Login_Test.KiteLoginTest2@47e2e487] output=running verify User ID TC]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--Logout From App--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Module1_Login_Test.KiteLoginTest2@47e2e487]" started-at="2022-08-18T12:47:51 IST" name="closeBrowser" finished-at="2022-08-18T12:47:55 IST" duration-ms="3098" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--Open browser--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Module1_Login_Test.KiteLoginTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
